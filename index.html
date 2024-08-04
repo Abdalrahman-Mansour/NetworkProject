@@ -1,0 +1,195 @@
+<html >
+<head>
+    <title>Network Project #1</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,200&family=Quicksand:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.page-container {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient( rgba(30,30,30,0.6), rgba(0,0,0,0.6)), url("backgroun.jpg");
+    height: 100%;
+}
+
+.page-header {
+    padding: 15px 0px;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    background-color: rgba(0,0,0,0.4);
+    color: #e0e0e0;
+}
+
+.page-header h1 span {
+    color: #77dd77;
+}
+
+.page-content section {
+    width: 48%;
+    height: 80%;
+    margin: 1%;
+    text-align: center;
+    font-size: 35px;
+    float: left;
+    background-color: rgba(0,0,0,0.3);
+    color: #e0e0e0;
+
+  }
+
+  .page-content .member-cards {
+      margin-top : 60px;
+  }
+
+  .page-content .member-card{
+    float: left;
+    margin: 2%;
+    width: 29%;
+    height: 60%;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    font-size: 25px;
+
+  }
+
+  .page-content .members-info h2,   .page-content .page-images h2 {
+      margin-top: 15px;
+  }
+
+
+  .page-content .member-card:hover {
+      width: 30%;
+      height: 61%;
+      background-color: rgba(0,0,0,0.8);
+      cursor: pointer;
+  }
+
+  .page-content .member-card P{
+      text-align: left;
+      margin-left: 15px;
+      font-size: 22px;
+      margin-top: 15px;
+
+  }
+
+  .page-content .member-card p span{
+      font-size: 20px;
+      margin-left: 3px;
+      text-decoration: underline;
+
+
+}
+
+  .page-content .member-card img {
+      margin-top: 45px;
+      margin-bottom: 40px;
+      height:150px;
+      width: 150px;
+      border-radius: 50%;
+
+      border: 2px solid #e0e0e0;
+  }
+
+
+  .page-content .page-images img {
+    opacity: 0.6;
+
+      float: left;
+    margin: 2%;
+    width: 46%;
+    height: 50%;
+  }
+
+  .page-content .page-images .images {
+      margin-top: 80px;
+
+  }
+
+  .page-content .page-images img:hover {
+
+      cursor: pointer;
+      opacity: 1;
+  }
+
+  .page-footer {
+      text-align: center;
+      color: white;
+      padding: 15px;
+      width: 100%;
+      font-size: 30px;
+      position: absolute;
+      bottom: 0;
+      background-color: rgba(0,0,0,0.4);
+  }
+
+    </style>
+</head>
+<body>
+    <div class="page-container">
+        <header class="page-header">
+            <h1>Welcome to our course <span>Computer Networks</span></h1>
+        </header>
+
+        <main class="page-content"> 
+            <section class="members-info">
+                <h2>Group Members Information</h2>
+
+                <div class="member-cards">
+                    <div class="member-card">
+                        <img src="ahmad.jpg" alt="Ahmad Hamzah Image">
+                        <p>Name: <span>Ahmad Hamzah</span></p>
+                        <p>ID: <span>1181751</span> </p>
+                        <p>Projects: <span>OS ,Linux ,NetWork</span> </p>
+                        <p>Hobbies: <span>watching movies,drink tea</span> </p>
+                    </div>
+                    <div class="member-card">
+                        <img src="abed.jpg" alt="Abdalraman Mansour Image">
+                        <p>Name: <span>Abdalrahman Mansour</span></p>
+                        <p>ID: <span>1182955</span> </p>
+                        <p>Projects: <span>DSP,AI,NetWork</span> </p>
+                        <p>Hobbies: <span>Sleep,Playing Cards</span> </p>
+                    </div>
+                    <div class="member-card">
+                        <img src="xa.jpg" alt="Ahmad Hamzah Image">
+                        <p>Name: <span>Mohammad Abu-zenah</span></p>
+                        <p>ID: <span>1181965</span> </p>
+                        <p>Projects: <span>OS ,Micro ,NetWork</span> </p>
+                        <p>Hobbies: <span>Watching Football ,Playing Cards</span> </p>
+
+                    </div>
+                </div>
+           
+            </section>
+            <section class="page-images">
+                <h2>Page Images</h2>
+                <div class="images">
+                    <img src="jpg-image.jpg" alt="">
+                    <img src="png-image.png" alt="">
+                </div>
+               
+            </section>
+            
+        </main>
+
+        <footer class="page-footer">
+            <p>Thanks for visiting our WebPage &copy</p>
+        </footer>
+
+
+        
+
+
+        
+
+    </div>
+</body>
+</html>
